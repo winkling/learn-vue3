@@ -1,6 +1,16 @@
 # learn-vue3
 
-## Project setup
+### Install vue
+```
+npm install -g @vue/cli
+```
+
+### Create project
+```
+vue create learn-vue3
+```
+
+### Project setup
 ```
 npm install
 ```
@@ -15,6 +25,11 @@ npm run serve
 npm run build
 ```
 
+### Host locally
+```
+serve -s dist
+```
+
 ### Lints and fixes files
 ```
 npm run lint
@@ -22,3 +37,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
